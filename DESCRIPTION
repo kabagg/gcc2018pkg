@@ -1,0 +1,17 @@
+Package: gcc2018pkg
+Type: Package
+Title: Tools for Structuring Files
+Version: 0.1.0
+Author: Keith Baggerly
+Maintainer: Keith Baggerly <kabagg@gmail.com>
+Description: This package collects various helper scripts
+    I use to make it easier to set up consistent file
+    structures.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports: here
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
